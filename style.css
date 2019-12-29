@@ -1,0 +1,178 @@
+/* Global View */
+          
+    body{
+       font-family: 'Roboto', sans-serif;
+        background-color: #29b2fe;
+        font-size: 1.125rem;
+        padding-top: 100px;
+        
+    }
+    
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    
+    .navbutton{
+       background-color:#fc8c14;
+       width: 200px;
+        padding: 15px 25px;
+        font-family: 'Roboto', serif;
+        font-size: 2rem;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 10px;
+        margin-right: 50px;
+    } 
+    
+    .logo{
+        padding-left: 50px;
+    }
+
+
+    .container {
+               margin-left: auto;
+        margin-right: auto;
+    }
+    
+    header{
+        display:flex;
+        background-color:white ;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        box-shadow: 1px 15px 5px rgba(0, 146, 214, 0.685) ;
+        position: fixed;
+        top:0;
+        width: 100%;
+    }   
+    
+        
+    main{
+        min-height: 300px;
+        display: flex;
+        align-items: center;
+   }
+    
+       
+      
+    .herobox1 {
+         flex: 2;
+         text-align: center;
+         padding-top: 100px;
+    }
+    
+    
+    
+    h1{ 
+        font-size: 3.25rem;
+        font-family: 'Roboto';
+        font-weight: 900;
+        margin-bottom: 1rem;
+        color: white;
+        padding-top: 10px;
+        text-align: center;             
+    }
+    
+    
+    
+    .mybutton {
+        background-color:#fc8c14;
+        width: 150px;
+        color: white;
+        font-family: 'Roboto';
+        font-size: 1rem;
+        padding: 11px 25px;
+        display: inline-block;
+        margin-top: 15px;
+        border-radius: 5px;
+        box-shadow: 5px 5px 5px rgba(88, 44, 2, 0.712) ;
+    }
+    
+    .mybutton:hover {
+        background-color: rgb(61, 193, 245);
+        transition-duration: 1s;
+    }
+    
+    
+  .navbutton:hover{
+        background-color: rgb(61, 193, 245);
+        transition-duration: 500ms;
+    }
+    
+    
+    .inputwrapper {
+           margin-bottom: 20px;
+           margin-top: 20px;
+           padding-bottom: 5px;
+           text-align: center;
+    }
+    
+    input[type=text], input [type="email"], textarea  {
+        padding: 12px 20px;
+        width: 33%;
+        font-family: 'Roboto', sans-serif;
+        font-size: .85rem;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    
+    .newline{
+        text-align: center;
+        display: block;
+        margin-bottom: 10px;
+        font-size: 1.25rem;
+        color: white;
+        font-weight: 900;
+        font-family: 'Roboto';
+       
+    }
+
+
+    .slide1{
+
+        width: 100%;
+        background-color:#2259b5;
+        margin-top: 150px;
+        display:block;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 200px;
+        box-shadow: 1px -15px 5px  rgba(0, 146, 214, 0.685) ;
+        padding-top: 50px;
+        padding-inline-start: 50px;
+        text-align: center;
+    }
+
+    .slide1 h1{
+        padding-top: 20px;
+    }
+    .slide1 p{
+        font-family: 'Roboto';
+        color: white;
+        font-size: 2rem;
+        padding-top: 20px;
+    }
+
+
+    /* Tablet View <768px */
+@media (max-width: 768px){
+   
+
+    
+
+    
+}
+
+
+
+    /* Mobile View <400px */
+    @media (max-width:400px){
+
+
+
+    }
+   
+  
