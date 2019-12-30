@@ -15,15 +15,31 @@
     .navbutton{
        background-color:#fc8c14;
        width: 200px;
-        padding: 15px 25px;
+        padding: 15px 15px;
         font-family: 'Roboto', serif;
         font-size: 2rem;
         text-align: center;
         text-decoration: none;
         border-radius: 10px;
-        margin-right: 50px;
+        margin-right: 30px;
         box-shadow: 1px 3px 5px grey ;
-    } 
+    }
+    
+    .nextbutton{
+        background-color:#fc8c14;
+       width: 200px;
+        padding: 15px 15px;
+        font-family: 'Roboto', serif;
+        font-size: 2rem;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
     
     .logo{
         padding-left: 50px;
@@ -82,6 +98,7 @@ h2{font-size: 2rem;
     color: white;
     text-align: left;
     padding-top: 50px;
+    padding-left: 50px;
 
 }
 
@@ -287,7 +304,6 @@ display: inline;
 }
 
 .signup .mybutton{
-    
     font-size: 1rem;
     text-align: center;
     align-items: center;
@@ -333,12 +349,7 @@ input[type=text], input [type="email"], textarea  {
     background-color: red;
 }
 
-.progress {
-    size: 2000px;
-    padding-top: 40px;
-    width: 250px;
-    height: 20px;
-  }
+
  
  .sand{ 
   background-image: url(images/sand.jpg);
@@ -368,8 +379,15 @@ input[type=text], input [type="email"], textarea  {
 }
        
 
-    
- 
+/*Page 5*/
+
+textarea{
+   	box-sizing: border-box;
+	width: 68%;}
+      
+
+
+/*Page 6*/
 
 
 
@@ -382,10 +400,10 @@ input[type=text], input [type="email"], textarea  {
      
     width: 500px;
         height: 500px;
-        background: white;
+        background: rgb(255, 255, 255);
         border-radius: 50%;
         margin: auto;
-        margin-top: 100px; 
+        margin-top: 50px; 
         margin-bottom: 30px;
 }
 
@@ -398,8 +416,10 @@ input[type=text], input [type="email"], textarea  {
     background-color: rgb(189, 189, 189);
     margin:auto;
     width:600px;
-    padding-bottom: 20px;
-    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
 }
        
 
@@ -450,7 +470,26 @@ input[type=text], input [type="email"], textarea  {
 }
 
 
+/*Page 8*/
+.donewrapper{
+    text-align:right;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
 
+.done{
+    background-color:rgb(93, 214, 93);
+    border: 1px white solid;
+    width: 250px;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 1rem;
+    padding: 10px 10px;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(88, 44, 2, 0.712);
+    text-align: center ;
 
 
     /* Tablet View <768px */
