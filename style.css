@@ -1,11 +1,9 @@
 /* Global View */
-          
+         
     body{
        font-family: 'Roboto', sans-serif;
         background-color: #29b2fe;
-        font-size: 1.125rem;
-        padding-top: 100px;
-        
+         padding-top: 110px;
     }
     
     a{
@@ -28,7 +26,7 @@
     
     .logo{
         padding-left: 50px;
-    }
+           }
 
 
     .container {
@@ -41,8 +39,8 @@
         background-color:white ;
         justify-content: space-between;
         align-items: center;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         box-shadow: 1px 15px 5px rgba(0, 146, 214, 0.685) ;
         position: fixed;
         top:0;
@@ -73,19 +71,28 @@
         padding-top: 10px;
         text-align: center;             
     }
+
+    p{
+            font-family: 'Roboto';
+            color: white;
+            font-size: 2rem;
+            padding-top: 20px;
+            padding-bottom: 15px;
+    }
     
     
     .mybutton {
         background-color:#fc8c14;
-        width: 150px;
+        width: 250px;
         color: white;
         font-family: 'Roboto';
-        font-size: 1rem;
+        font-size: 3rem;
         padding: 11px 25px;
         display: inline-block;
         margin-top: 15px;
         border-radius: 5px;
         box-shadow: 5px 5px 5px rgba(88, 44, 2, 0.712) ;
+       
     }
     
     .mybutton:hover {
@@ -146,12 +153,7 @@
     .slide1 h1{
         padding-top: 20px;
     }
-    .slide1 p{
-        font-family: 'Roboto';
-        color: white;
-        font-size: 2rem;
-        padding-top: 20px;
-    }
+   
 
 
 /* Page 2 specific */
@@ -194,18 +196,90 @@ i{
 }
 
 .card p {
-    color: #363f4d
+    color: #363f4d;
+    font-size: 1.5rem;
 }
 
     
     
-    
-    
+    /*Page 3 Specific */
 
+.title{
+    font-size: 150px;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 900;
+    padding-top: 50px;
     
-   
+}
+.slide2{
+        width: 100%;
+        background-color:#2259b5;
+        margin-top: 150px;
+        display:block;
+        
+        box-shadow: 0px 15px  rgba(0, 146, 214, 0.685) ;
+        padding-top: 50px;
+        padding-inline-start: 50px;
+        text-align: center;
+        padding-bottom: 100px;
+    }
 
+    .slide1 h2{
+        padding-top: 20px;
+    }
+    .slide2 p{
+        font-family: 'Roboto';
+        color: white;
+        font-size: 2rem;
+        padding-top: 20px;
+    }
+
+.body2{
     
+         padding-bottom: 100px;
+                 
+}    
+
+.wrapper {
+    text-align: center;
+}
+
+.letsgobutton {
+       top: 50%;
+       background-color:#fc8c14;
+        width: 250px;
+        color: white;
+        font-family: 'Roboto';
+        font-size: 3rem;
+        padding: 11px 25px;
+        display: inline-block;
+        margin-top: 15px;
+        border-radius: 5px;
+        box-shadow: 5px 5px 5px rgba(88, 44, 2, 0.712) ;
+}
+
+.optoutwrapper{
+    text-align:right;
+}
+
+.optout{
+    background-color:none;
+    border: 1px white solid;
+    width: 250px;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 1rem;
+    padding: 10px 10px;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(88, 44, 2, 0.712);
+    text-align: center ;
+       
+}
+
+     
 
     /* Tablet View <768px */
 @media (max-width: 768px){
