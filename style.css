@@ -22,10 +22,12 @@
         text-decoration: none;
         border-radius: 10px;
         margin-right: 50px;
+        box-shadow: 1px 3px 5px grey ;
     } 
     
     .logo{
         padding-left: 50px;
+       
            }
 
 
@@ -91,7 +93,7 @@
         display: inline-block;
         margin-top: 15px;
         border-radius: 5px;
-        box-shadow: 5px 5px 5px rgba(88, 44, 2, 0.712) ;
+        box-shadow: 1px 15px 5px rgba(0, 146, 214, 0.685) ; 
        
     }
     
@@ -145,7 +147,7 @@
         align-items: center;
         padding-bottom: 200px;
         box-shadow: 1px -15px 5px  rgba(0, 146, 214, 0.685) ;
-        padding-top: 50px;
+        padding-top: 120px;
         padding-inline-start: 50px;
         text-align: center;
     }
@@ -279,6 +281,87 @@ i{
        
 }
 
+.signup{
+display: inline;
+}
+
+.signup .mybutton{
+    background-color: red;
+    font-size: 1rem;
+    text-emphasis: center;
+
+    
+}
+.signup .inputwrapper {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+input[type=text], input [type="email"], textarea  {
+ padding: 12px 20px;
+ width: 33%;
+ font-family: 'Roboto', sans-serif;
+ font-size: .85rem;
+ box-sizing: border-box;
+ text-align: left;
+}
+
+.newline{
+ text-align: left;
+ display: block;
+ margin-bottom: 10px;
+ font-size: 1.25rem;
+ color: white;
+ font-weight: 900;
+ font-family: 'Roboto';
+}
+
+.langbutton {
+    background-color: lightcoral;
+    padding: 11px 25px;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+
+
+/* This turns the drop down off when not used */
+.dropdown-box{
+    display: none;
+    position: absolute;
+    z-index: 100;
+    padding-top: 20px;
+    margin-left: -23px;
+    
+}
+/* This turns the drop down off when not used */
+.langbutton:hover .dropdown-box{
+    display: block;
+}
+
+.dropdown-box .langbutton {
+    background-color: lightgreen;
+}
+
+.dropdown-box .langbutton:hover{
+    background-color: purple;
+    transition-duration: 500ms;
+}
+
+
+.file{
+    background-color: red;
+}
+
+progress[value] {
+    width: 250px;
+    height: 20px;
+  }
+ 
+
      
 
     /* Tablet View <768px */
@@ -295,8 +378,4 @@ i{
     /* Mobile View <400px */
     @media (max-width:400px){
 
-
-
     }
-   
-  
