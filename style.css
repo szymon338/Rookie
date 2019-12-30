@@ -70,16 +70,28 @@
         font-weight: 900;
         margin-bottom: 1rem;
         color: white;
-        padding-top: 10px;
-        text-align: center;             
+        padding-top: 50px;
+        text-align: center;     
+        padding-bottom: 30px;        
     }
+
+h2{font-size: 2rem;
+    font-family: 'Roboto';
+    font-weight: 9500;
+    margin-bottom: 1rem;
+    color: white;
+    text-align: left;
+    padding-top: 50px;
+
+}
 
     p{
             font-family: 'Roboto';
             color: white;
-            font-size: 2rem;
+            font-size: 1.5rem;
             padding-top: 20px;
-            padding-bottom: 15px;
+            padding-bottom: 40px;
+            text-align: center;
     }
     
     
@@ -158,20 +170,21 @@
    
 
 
+
 /* Page 2 specific */
 
 i{
     font-size: 200px;
     color: #363f4d;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 10px;
 
 }
 
 .card{ 
    display: flex;
     justify-content: space-between;
-    padding: 10% 25%;
+    padding: 10% 20%;
 }
     
 .card1{
@@ -203,66 +216,54 @@ i{
 }
 
     
-    
-    /*Page 3 Specific */
+ /*Page 3 Specific */
 
 .title{
     font-size: 150px;
     color: white;
     font-family: 'Roboto';
     font-weight: 900;
-    padding-top: 50px;
+    padding-top: 80px;
+    margin-bottom: 50px;
     
 }
 .slide2{
-        width: 100%;
+       
         background-color:#2259b5;
-        margin-top: 150px;
         display:block;
-        
-        box-shadow: 0px 15px  rgba(0, 146, 214, 0.685) ;
-        padding-top: 50px;
-        padding-inline-start: 50px;
-        text-align: center;
-        padding-bottom: 100px;
+        box-shadow: 0px 15px  rgba(0, 146, 214, 0.685);
+        padding: 30px 20px;
+               
     }
-
-    .slide1 h2{
-        padding-top: 20px;
-    }
-    .slide2 p{
+ .slide2 p{
         font-family: 'Roboto';
         color: white;
-        font-size: 2rem;
-        padding-top: 20px;
+        font-size: 1.5rem;
     }
 
-.body2{
-    
-         padding-bottom: 100px;
-                 
-}    
+ .slide3 h1{
+    padding-top: 50px;
+    }
 
-.wrapper {
+
+.letsgo {
+    background-color:#fc8c14;
+    width: 350px;
     text-align: center;
-}
-
-.letsgobutton {
-       top: 50%;
-       background-color:#fc8c14;
-        width: 250px;
-        color: white;
-        font-family: 'Roboto';
-        font-size: 3rem;
-        padding: 11px 25px;
-        display: inline-block;
-        margin-top: 15px;
-        border-radius: 5px;
-        box-shadow: 5px 5px 5px rgba(88, 44, 2, 0.712) ;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 3rem;
+    padding: 11px 25px;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 5px;
+    box-shadow: 1px 15px 5px rgba(0, 146, 214, 0.685) ; 
 }
 
 .optoutwrapper{
     text-align:right;
+    padding-right: 50px;
+    padding-bottom: 50px;
 }
 
 .optout{
@@ -280,15 +281,21 @@ i{
     text-align: center ;
        
 }
-
+/*Page 4*/
 .signup{
 display: inline;
 }
 
 .signup .mybutton{
-    background-color: red;
+    
     font-size: 1rem;
-    text-emphasis: center;
+    text-align: center;
+    align-items: center;
+}
+
+.signup h2 {
+    text-align: center;
+}
 
     
 }
@@ -296,7 +303,7 @@ display: inline;
     margin-bottom: 20px;
     margin-top: 20px;
     padding-bottom: 5px;
-    text-align: left;
+    text-align: center;
 }
 
 input[type=text], input [type="email"], textarea  {
@@ -309,66 +316,147 @@ input[type=text], input [type="email"], textarea  {
 }
 
 .newline{
- text-align: left;
+ text-align: center;
  display: block;
  margin-bottom: 10px;
  font-size: 1.25rem;
  color: white;
  font-weight: 900;
  font-family: 'Roboto';
+ padding-bottom: 5px;
+ padding-top: 10px;
 }
 
-.langbutton {
-    background-color: lightcoral;
-    padding: 11px 25px;
-    width: 100px;
-    text-align: center;
-    display: inline-block;
-    position: relative;
-}
-
-
-/* This turns the drop down off when not used */
-.dropdown-box{
-    display: none;
-    position: absolute;
-    z-index: 100;
-    padding-top: 20px;
-    margin-left: -23px;
-    
-}
-/* This turns the drop down off when not used */
-.langbutton:hover .dropdown-box{
-    display: block;
-}
-
-.dropdown-box .langbutton {
-    background-color: lightgreen;
-}
-
-.dropdown-box .langbutton:hover{
-    background-color: purple;
-    transition-duration: 500ms;
-}
 
 
 .file{
     background-color: red;
 }
 
-progress[value] {
+.progress {
+    size: 2000px;
+    padding-top: 40px;
     width: 250px;
     height: 20px;
   }
  
+ .sand{ 
+  background-image: url(images/sand.jpg);
+  background-size: stretch;
+  height: 1200px;
+    
+ }
+
+
+/* Page 4*/
+
+.languagewrapper {
+    
+    margin-bottom: 20x;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+    
+
+.radio{
+    color: white;
+    font-size: 2rem;
+   padding-bottom: 40px;
+    
+}
+       
+
+    
+ 
+
+
+
+ /*This is  for page 7 - photos ref: upload.php for action */
+
+
+
+.circle{
 
      
+    width: 500px;
+        height: 500px;
+        background: white;
+        border-radius: 50%;
+        margin: auto;
+        margin-top: 100px; 
+        margin-bottom: 30px;
+}
+
+
+.uploadwrapper{
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 1.25rem;
+    color: white;
+    background-color: rgb(189, 189, 189);
+    margin:auto;
+    width:600px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+       
+
+/*Page 8 styling*/
+
+
+/*Page 9 Styling*/
+
+.lessons{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.lesson1{
+    background-color: red;
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px; 
+    width: 30%;
+    box-shadow: 5px 5px 5px rgba(88, 44, 2, 0.712) ;
+
+}
+
+.lesson2{
+   background-image: url(images/image-background-card2.jpg);
+   background-size: cover;
+   background-position: bottom;
+   min-height: 250px;
+    width: 30%;
+    box-shadow: 5px 5px 5px rgba(88, 44, 2, 0.712) ;
+
+}
+.lesson3{
+     background-image: url(images/image-background-card3.jpg);  
+     background-size: cover;
+     background-position: bottom;  
+     min-height: 250px;
+     width: 30%;
+     box-shadow: 5px 5px 5px rgba(88, 44, 2, 0.712) ;
+
+}
+
+.lesson1, .lesson2, .lesson3 {
+    padding: 30px 30px 20px 30px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+
+
+
 
     /* Tablet View <768px */
 @media (max-width: 768px){
    
 
-    
 
     
 }
