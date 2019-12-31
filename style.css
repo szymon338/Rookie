@@ -1,17 +1,16 @@
 /* Global View */
          
     body{
-       font-family: 'Roboto', sans-serif;
+        font-family: 'Roboto', sans-serif;
         background-color: #29b2fe;
-         padding-top: 110px;
+        padding-top: 110px;
     }
     
     a{
         color: white;
         text-decoration: none;
     }
-    
-    
+       
     .navbutton{
        background-color:#fc8c14;
        width: 200px;
@@ -23,7 +22,6 @@
         border-radius: 10px;
         margin-right: 30px;
         box-shadow: 1px 3px 5px grey ;
-
     }
     
     .nextbutton{
@@ -40,26 +38,34 @@
         margin-top: 100px;
         margin-bottom: 100px;
         box-shadow: 1px 3px 5px grey ;
-        
-    
     }
-.education{
-    margin-bottom: 30px;
-    padding-bottom: 30px;
-}
-    
 
+    .kycbutton{
+            background-color:#fc8c14;
+            width: 200px;
+            padding: 15px 15px;
+            font-family: 'Roboto', serif;
+            font-size: 2rem;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 10px;
+            margin-right: auto;
+            margin-left: auto;
+            box-shadow: 1px 3px 5px rgb(58, 58, 58);
+    }
+    .education{
+         margin-bottom: 30px;
+         padding-bottom: 30px;
+    }
+    
     .logo{
         padding-left: 50px;
-       
-           }
-
+    }
 
     .container {
         margin-left: auto;
         margin-right: auto;
     }
-    
     
     header{
         display:flex;
@@ -73,22 +79,19 @@
         top:0;
         width: 100%;
     }   
-    
-        
+            
     main{
         min-height: 300px;
         display: flex;
         align-items: center;
-   }
-    
-            
+    }
+                
     .herobox1 {
          flex: 2;
          text-align: center;
          padding-top: 100px;
     }
-    
-       
+          
     h1{ 
         font-size: 3.25rem;
         font-family: 'Roboto';
@@ -100,31 +103,29 @@
         padding-bottom: 30px;        
     }
 
-h2{font-size: 2rem;
-    font-family: 'Roboto';
-    font-weight: 900;
-    margin-bottom: 1rem;
-    color: white;
-    text-align: center;
-    padding-top: 50px;
-    padding-left: 50px;
-   margin-bottom: 100px;
-   padding-right: 50px;
-
-}
-
-    p{
-            font-family: 'Roboto';
-            color: white;
-            font-size: 1.5rem;
-            padding-top: 20px;
-            padding-bottom: 40px;
-            text-align: center;
-            padding-left: 30px;
-            padding-right: 30px;
-                    
+    h2{
+        font-size: 2rem;
+        font-family: 'Roboto';
+        font-weight: 900;
+        margin-bottom: 1rem;
+        color: white;
+        text-align: center;
+        padding-top: 50px;
+        padding-left: 50px;
+        margin-bottom: 100px;
+        padding-right: 50px;
     }
-    
+
+    p{  
+        font-family: 'Roboto';
+        color: white;
+        font-size: 1.5rem;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
     
     .mybutton {
         background-color:#fc8c14;
@@ -136,8 +137,7 @@ h2{font-size: 2rem;
         display: inline-block;
         margin-top: 15px;
         border-radius: 5px;
-        box-shadow: 1px 15px 5px rgba(0, 146, 214, 0.685) ; 
-       
+        box-shadow: 1px 15px 5px rgba(0, 146, 214, 0.685) 
     }
     
     .mybutton:hover {
@@ -145,13 +145,11 @@ h2{font-size: 2rem;
         transition-duration: 1s;
     }
     
-    
-  .navbutton:hover{
+    .navbutton:hover{
         background-color: rgb(61, 193, 245);
         transition-duration: 500ms;
     }
-    
-    
+        
     .inputwrapper {
            margin-bottom: 20px;
            margin-top: 20px;
@@ -159,7 +157,7 @@ h2{font-size: 2rem;
            text-align: center;
     }
     
-    input[type=text], input [type="email"], textarea  {
+    input[type=text], input [type="email"], textarea {
         padding: 12px 20px;
         width: 33%;
         font-family: 'Roboto', sans-serif;
@@ -176,9 +174,7 @@ h2{font-size: 2rem;
         color: white;
         font-weight: 900;
         font-family: 'Roboto';
-       
     }
-
 
     .slide1{
 
@@ -198,353 +194,318 @@ h2{font-size: 2rem;
     .slide1 h1{
         padding-top: 20px;
     }
+
+    .slide1 p{   
+        font-family: 'Roboto';
+        color: white;
+        text-decoration: none;
+        font-size: 1.5rem;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-right: 60px;
+    }
    
-
-
-
 /* Page 2 specific */
 
-i{
-    font-size: 200px;
-    color: #363f4d;
-    padding-top: 50px;
-    padding-bottom: 10px;
+    i{
+        font-size: 200px;
+        color: #363f4d;
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
 
-}
+    .card{ 
+    display: flex;
+        justify-content: space-between;
+        padding: 10% 20%;
+    }
+        
+    .card1{
+        background-color: #F0F0F0;
+        min-height: 400px;
+        min-width: 400px;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 1px 15px 5px rgba(0, 146, 214, 0.685);
+    }
 
-.card{ 
-   display: flex;
-    justify-content: space-between;
-    padding: 10% 20%;
-}
-    
-.card1{
-    background-color: #F0F0F0;
-    min-height: 400px;
-    min-width: 400px;
-    text-align: center;
-    border-radius: 10px;
-    box-shadow: 1px 15px 5px rgba(0, 146, 214, 0.685);
-}
+    .card2{
+        background-color: #F0F0F0;
+        min-height: 400px;
+        min-width: 400px;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 1px 15px 5px rgba(0, 146, 214, 0.685);
+    }
 
-.card2{
-    background-color: #F0F0F0;
-    min-height: 400px;
-    min-width: 400px;
-    text-align: center;
-    border-radius: 10px;
-    box-shadow: 1px 15px 5px rgba(0, 146, 214, 0.685);
-}
+    .card h1 {
+        color: #363f4d;
+        font-size: 2.75rem;
+    }
 
-.card h1 {
-    color: #363f4d;
-    font-size: 2.75rem;
-}
+    .card p {
+        color: #363f4d;
+        font-size: 1.5rem;
+    }
 
-.card p {
-    color: #363f4d;
-    font-size: 1.5rem;
-}
-
-    
  /*Page 3 Specific */
 
-.title{
-    font-size: 150px;
-    color: white;
-    font-family: 'Roboto';
-    font-weight: 900;
-    padding-top: 80px;
-    margin-bottom: 50px;
-    
-}
-.slide2{
-       
+    .title{
+        font-size: 300px;
+        color: white;
+        font-family: 'Roboto';
+        font-weight: 900;
+        padding-top: 80px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .slide2{
         background-color:#2259b5;
         display:block;
         box-shadow: 0px 15px  rgba(0, 146, 214, 0.685);
         padding: 30px 20px;
-               
     }
- .slide2 p{
+    .slide2 p{
         font-family: 'Roboto';
         color: white;
         font-size: 1.5rem;
+   }
+
+    .slide2 h2{
+        margin-top: 5px;
+        margin-bottom: 50px;
     }
 
- .slide3 h1{
-    padding-top: 50px;
+    .slide3 h1{
+        padding-top: 50px;
     }
 
 
-.letsgo {
-    background-color:#fc8c14;
-    width: 350px;
-    text-align: center;
-    color: white;
-    font-family: 'Roboto';
-    font-size: 3rem;
-    padding: 11px 25px;
-    display: inline-block;
-    margin-top: 15px;
-    border-radius: 5px;
-    box-shadow: 1px 15px 5px rgba(0, 146, 214, 0.685) ; 
-}
+    .letsgo {
+        background-color:#fc8c14;
+        width: 350px;
+        text-align: center;
+        color: white;
+        font-family: 'Roboto';
+        font-size: 3rem;
+        padding: 11px 25px;
+        display: inline-block;
+        margin-top: 15px;
+        border-radius: 5px;
+        box-shadow: 1px 15px 5px rgba(0, 146, 214, 0.685) ; 
+    }
 
-.optoutwrapper{
-    text-align:right;
-    padding-right: 50px;
-    padding-bottom: 50px;
-}
+    .optoutwrapper{
+        text-align:right;
+        padding-right: 50px;
+        padding-bottom: 50px;
+    }
 
-.optout{
-    background-color:none;
-    border: 1px white solid;
-    width: 250px;
-    color: white;
-    font-family: 'Roboto';
-    font-size: 1rem;
-    padding: 10px 10px;
-    display: inline-block;
-    margin-top: 15px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px rgba(88, 44, 2, 0.712);
-    text-align: center ;
-       
-}
+    .optout{
+        background-color:none;
+        border: 1px white solid;
+        width: 250px;
+        color: white;
+        font-family: 'Roboto';
+        font-size: 1rem;
+        padding: 10px 10px;
+        display: inline-block;
+        margin-top: 15px;
+        border-radius: 5px;
+        box-shadow: 5px 5px 5px rgba(88, 44, 2, 0.712);
+        text-align: center ;
+    }
 /*Page 4*/
-.signup{
-display: inline;
-}
 
-.signup .mybutton{
-    font-size: 1rem;
-    text-align: center;
-    align-items: center;
-}
+    .signup{
+        display: inline;
+    }
 
-.signup h2 {
-    text-align: center;
-}
+    .signup .mybutton{
+        font-size: 1rem;
+        text-align: center;
+        align-items: center;
+    }
 
-.signup .inputwrapper {
-    margin-bottom: 20px;
-    margin-top: 20px;
-    padding-bottom: 5px;
-    text-align: center;
-}
+    .signup h2 {
+        text-align: center;
+    }
 
-input[type=text], input [type="email"], textarea  {
- padding: 12px 20px;
- width: 33%;
- font-family: 'Roboto', sans-serif;
- font-size: .85rem;
- box-sizing: border-box;
- text-align: left;
-}
+    .signup .inputwrapper{
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding-bottom: 5px;
+        text-align: center;
+    }
 
-.newline{
- text-align: center;
- display: block;
- margin-bottom: 10px;
- font-size: 1.25rem;
- color: white;
- font-weight: 900;
- font-family: 'Roboto';
- padding-bottom: 5px;
- padding-top: 10px;
-}
+    input[type=text], input [type="email"], textarea{
+        padding: 12px 20px;
+        width: 33%;
+        font-family: 'Roboto', sans-serif;
+        font-size: .85rem;
+        box-sizing: border-box;
+        text-align: left;
+    }
 
+    .newline{
+        text-align: center;
+        display: block;
+        margin-bottom: 10px;
+        font-size: 1.25rem;
+        color: white;
+        font-weight: 900;
+        font-family: 'Roboto';
+        padding-bottom: 5px;
+        padding-top: 10px;
+    }
+    .file{
+        background-color: red;
+    }
 
+    .sand{ 
+        background-image: url(images/sand.jpg);
+        background-size: stretch;
+        height: 1200px;
+    }
 
-.file{
-    background-color: red;
-}
-
-
- 
- .sand{ 
-  background-image: url(images/sand.jpg);
-  background-size: stretch;
-  height: 1200px;
-    
- }
-
-
-/* Page 4*/
-
-.languagewrapper {
-    
-    margin-bottom: 20x;
-    margin-top: 20px;
-    padding-bottom: 5px;
-    text-align: center;
-}
-
-    
-
-.radio{
-    color: white;
-    font-size: 2rem;
-   padding-bottom: 40px;
-    
-}
-       
-
+    .languagewrapper {
+        margin-bottom: 20x;
+        margin-top: 20px;
+        padding-bottom: 5px;
+        text-align: center;
+    }
+    .radio{
+        color: white;
+        font-size: 2rem;
+        padding-bottom: 40px;
+    }
+   
 /*Page 5*/
 
-textarea{
-   	box-sizing: border-box;
-	width: 66.5%;}
-      
-
+    textarea{
+    	box-sizing: border-box;
+        width: 66.5%;
+    }
 
 /*Page 6*/
 
+ /*Page 7*/
 
-
- /*This is  for page 7 - photos ref: upload.php for action */
-
-
-
-.circle{
-
-     
-    width: 500px;
+    .circle{
+        width: 500px;
         height: 500px;
         background: rgb(255, 255, 255);
         border-radius: 50%;
         margin: auto;
         margin-top: 50px; 
         margin-bottom: 30px;
-}
-
-
-.uploadwrapper{
-    text-align: center;
-    font-family: 'Roboto';
-    font-size: 1.25rem;
-    color: white;
-    background-color: rgb(189, 189, 189);
-    margin:auto;
-    width:600px;
-    padding: 20px 10px;
-    border-radius: 10px;
-    margin-top: 20px;
-}
+    }
+    
+    .uploadwrapper{
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 1.25rem;
+        color: white;
+        background-color: rgb(189, 189, 189);
+        margin:auto;
+        width:600px;
+        padding: 20px 10px;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
        
-
-/*Page 8 styling*/
-
-
-
 
 /*Page 8*/
-.donewrapper{
-    text-align:right;
-    padding-right: 50px;
-    padding-bottom: 50px;
-    margin-right: 50px;
-    margin-bottom: 50px;
-    margin-top: 50px;
-}
+    .donewrapper{
+        text-align:right;
+        padding-right: 50px;
+        padding-bottom: 50px;
+        margin-right: 50px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
 
-.done{
-    background-color:rgb(93, 214, 93);
-    border: 1px white solid;
-    width: 250px;
-    color: white;
-    font-family: 'Roboto';
-    font-size: 1rem;
-    padding: 10px 10px;
-    display: inline-block;
-    margin-top: 15px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px rgba(88, 44, 2, 0.712);
-    text-align: center ; 
-}
+    .done{
+        background-color:rgb(93, 214, 93);
+        border: 1px white solid;
+        width: 250px;
+        color: white;
+        font-family: 'Roboto';
+        font-size: 1rem;
+        padding: 10px 10px;
+        display: inline-block;
+        margin-top: 15px;
+        border-radius: 5px;
+        box-shadow: 5px 5px 5px rgba(88, 44, 2, 0.712);
+        text-align: center ; 
+    }
 
-.slide2 .kyc h2{
-       
-    margin-top: 10px;
-           
-}
-.slide2 p{
-    font-family: 'Roboto';
-    color: white;
-    font-size: 1.5rem;
+    .slide2 p{
+        font-family: 'Roboto';
+        color: white;
+        font-size: 1.5rem;
 }
 /*Page 9*/
 
 
-.lessons{
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    padding-top: 70px;
-    padding-bottom: 70px;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
-.lesson1{
-    background-image: url(images/article1.jpg);
-    background-size: cover;
-    background-position: bottom;
-    min-height: 250px; 
-    width: 30%;
-    box-shadow: 5px 5px 5px rgba(88, 44, 2, 0.712) ;
+    .lessons{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        margin-left: 30px;
+        margin-right: 30px;
     }
 
+    .lesson1{
+        background-image: url(images/article1.jpg);
+        background-size: cover;
+        background-position: bottom;
+        min-height: 250px; 
+        width: 30%;
+        box-shadow: 5px 5px 5px rgba(88, 44, 2, 0.712) ;
+    }
 
-.lesson2{
-   background-image: url(images/idea2.png);
-   background-size: cover;
-   background-position: bottom;
-   min-height: 250px;
-    width: 30%;
-    box-shadow: 5px 5px 5px rgba(88, 44, 2, 0.712) ;
+    .lesson2{
+        background-image: url(images/idea2.png);
+        background-size: cover;
+        background-position: bottom;
+        min-height: 250px;
+        width: 30%;
+        box-shadow: 5px 5px 5px rgba(88, 44, 2, 0.712) ;
+    }
 
-}
-.lesson3{
-     background-image: url(images/idea3.jpg);  
-     background-size: cover;
-     background-position: bottom;  
-     min-height: 250px;
-     width: 30%;
-     box-shadow: 5px 5px 5px rgba(88, 44, 2, 0.712) ;
+    .lesson3{
+        background-image: url(images/idea3.jpg);  
+        background-size: cover;
+        background-position: bottom;  
+        min-height: 250px;
+        width: 30%;
+        box-shadow: 5px 5px 5px rgba(88, 44, 2, 0.712) ;
+    }
 
-}
+    .lesson1, .lesson2, .lesson3 {
+        padding: 30px 30px 20px 30px;
+        box-sizing: border-box;
+        border-radius: 15px;
+    }
 
-.lesson1, .lesson2, .lesson3 {
-    padding: 30px 30px 20px 30px;
-    box-sizing: border-box;
-    border-radius: 15px;
-}
-
-h3{
-    font-size: 2rem;
-    padding: 15px 20px;
-    font-family: 'Roboto';
-    text-align: center;
-    color: white;
-}
-
+    h3{
+        font-size: 2rem;
+        padding: 15px 20px;
+        font-family: 'Roboto';
+        text-align: center;
+        color: white;
+    }
 
 /*Page 10*/
-header1{
-    display:flex;
-    background-color:white ;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    position: fixed;
-    top:0;
-    width: 100%;
 
     /* Tablet View <768px */
-@media (max-width: 768px){
+    @media (max-width: 768px){
    
    
 }
@@ -552,4 +513,4 @@ header1{
     /* Mobile View <400px */
     @media (max-width:400px){
 
-    }
+}
