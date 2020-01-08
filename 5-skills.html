@@ -20,21 +20,48 @@
             </div>
             </nav>
         </header>
-             <h1>Tell us a little bit about yourself</h1>
-             </div>             
-             <div class="inputwrapper">
-                  <label for="email" class="newline">How long have you been freelancing</label>
-                        <select name="years" id="years">
-                            <option value="Not-Chosen">Choose length</option>
-                            <option value="new">I am new!</option>
-                            <option value="lessthanyear">0-6 Months</option>
-                            <option value="1year">1 Year</option>
-                            <option value="1-3years">1-3 Years</option>
-                            <option value="3-5years">3-5 years</option>
-                            <option value="5+years">5+ Years</option>
-                            <option value="10+">10 years + I am a pro</option>
-                    </select>
-             <h1>Select your top 5 skills</h1>
+
+<body>
+    <script src="modal.js"></script>    
+
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Open Modal</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Some text in the Modal..</p>
+  </div>
+
+</div>
+
+
+
+
+        <div id="hero">
+            <div id="wide">
+                <div class="sign">
+                    <h1>Tell us a little about yourself</h1>
+                    <div class="inputwrapper">
+                        <label for="email" class="newline">How long have you been freelancing?</label>
+                              <select name="years" id="years">
+                                  <option value="Not-Chosen">Choose length</option>
+                                  <option value="new">I am new!</option>
+                                  <option value="lessthanyear">0-6 Months</option>
+                                  <option value="1year">1 Year</option>
+                                  <option value="1-3years">1-3 Years</option>
+                                  <option value="3-5years">3-5 years</option>
+                                  <option value="5+years">5+ Years</option>
+                                  <option value="10+">10 years + I am a pro</option>
+                          </select>
+                    </div>
+                </div>
+             </div>
+            <div id="narrow"><div class="sign2">
+                <div class="inputwrapper">
                  <label for="email" class="newline">Top Skill 1</label>
                          <select name="skill" id="skill">
                             <option value="Not-Chosen">Choose skill</option>
@@ -154,21 +181,31 @@
                                 <option value="8">8</option>
                                 <option value="9">9</option>
                                 <option value="10">10</option>
-                            </select>           
+                            </select>      
+                        </div>     
                      </div>
-                <h1>Any other skills?</h1>
-                    <div class="inputwrapper">
-                    <input type="text" name="email" id="email" placeholder="Start typing">
-                    <div class="inputwrapper">
-                 <h1>Experience and Education</h1>
-                    <label for="email" class="newline">Experience</label>
+            </div>
+        </div>
+            <div>
+
+
+
+
+
+
+
+                <div class="slide3">
+                      <div class="slide2">
+                               <h1>Experience and Education</h1>
+                               <div class="inputwrapper">
+                                 <label for="email" class="newline">Experience</label>
                         <input type="text" name="email" id="Company" placeholder="Company">
                         <input type="text" name="email" id="Date" placeholder="Date">
-                        </div>
+                    </div>
                         <div class="inputwrapper">
                         <textarea name="message" id="message" cols="500" rows="5" placeholder="What were you responible for?"></textarea>
-                     </div>
-                 <div class="education">
+                    </div>
+                 
                     <div class="inputwrapper">
                     <label for="email" class="newline">Education</label>
                          <input type="text" name="email" id="Institution" placeholder="Institution">
@@ -176,7 +213,10 @@
                          <label for="email" class="newline"></label>
                          <input type="text" name="email" id="Area of Studie" placeholder="Area of Studies">
                          <input type="text" name="email" id="Qualification" placeholder="Qualification">
+                        </div>
+            
                     </div>
                 <div class="nextbutton">
                 <a href="/6-bio.html">Next Step</a>
              </div>
+            </body>   
