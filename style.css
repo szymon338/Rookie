@@ -9,13 +9,12 @@
 
     header{
         display:flex;
-        background-color: #190061;
+        background-color: none;
         justify-content: space-between;
         align-items: center;
-        padding-top: 10px;
+        
         padding-bottom: 10px;
-        box-shadow: 1px 15px 5px #060018 ;
-        position: fixed;
+              position: fixed;
         top:0;
         width: 100%;
     }   
@@ -27,10 +26,12 @@
     }
 
     .logo{
-        padding-left: 50px;
+        padding-top: 15px;
+        padding-left: 30px;
     }
        
     .navbutton{
+        display: inline-flexbox;
        background-color: #0600188e;
        border:  #e00036 solid 1px;
        width: 200px;
@@ -53,13 +54,15 @@
        background-repeat: no-repeat;
         width: auto;
         padding-bottom: 90px;
-        padding-top: 100px;
+        padding-top: 60px;
         padding-left: 10%;
-        margin-top: 70px ;
+        margin-top: 30px ;
     }
 
     #hero h1{
         font-size:6rem;
+        text-align: center;
+
     }
       #narrow {
         width:90%;
@@ -80,6 +83,8 @@
 
 
     .nextbutton{
+        display: inline-block;
+        
         background-color:#0600188e ;
         border: solid 1px #e00036;
         width: 200px;
@@ -91,7 +96,8 @@
         border-radius: 10px;
         margin-right: auto;
         margin-left: auto;
-        margin-top: 100px;
+        margin-right: 50px;
+        margin-top: 40px;
         margin-bottom: 100px;
         box-shadow: -10px 3px 10px 5px  #0600188e ;
     }
@@ -110,7 +116,7 @@
             border-radius: 10px;
             margin-right: auto;
             margin-left: auto;
-            margin-bottom: 20px;
+           
             box-shadow: -10px 3px 10px 5px  #0600188e;
     }
 
@@ -155,7 +161,9 @@
         margin-bottom: 1rem;
         color: white;
         padding-top: 50px;
-        text-align: center;     
+        text-align: center;   
+        margin-left: auto;
+        margin-right: auto;  
                
     }
 
@@ -168,8 +176,12 @@
         text-align: center;
         padding-top: 50px;
         padding-left: 50px;
-        margin-bottom: 100px;
+        margin-bottom: 30px;
         padding-right: 50px;
+    }
+
+    .slide1 h2{
+       padding-top: 50px;
     }
 
     p{  
@@ -222,8 +234,20 @@
            text-align: center;
            padding-top: 10px;
           
-           
-           
+               
+    }
+
+    .floated{
+        background-color:#e00036;
+        width: 250px;
+        color: white;
+        font-family: 'Roboto';
+        font-size: 3rem;
+        padding: 11px 25px;
+        display: inline-block;
+        margin-top: 15px;
+        border-radius: 5px;
+        box-shadow: 1px 15px 5px #010003
     }
     
     input[type=text], input [type="email"], textarea {
@@ -428,6 +452,17 @@ Page 2 specific
     .slide2 h2{
         margin-top: 5px;
         margin-bottom: 50px;
+    }
+
+    .slide22{
+        background-color:#3500d3;
+        display:block;
+        height: 500px;
+        box-shadow: 1px 25px 15px #04000f;
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px
     }
 
     .slide3{
@@ -770,7 +805,7 @@ select{
 
     .done{
         background-color: #3500d3;
-        border: 1px white solid;
+        
         width: 250px;
         color: white;
         font-family: 'Roboto';
@@ -779,8 +814,8 @@ select{
         display: inline-block;
         margin-top: 15px;
         border-radius: 5px;
-        box-shadow: 5px 5px 5px rgba(88, 44, 2, 0.712);
-        text-align: center ; 
+        box-shadow: 5px 5px 5px #010003;
+        text-align: center;
     }
 
     .slide2 p{
