@@ -1,5 +1,5 @@
 /* Global View */
-         
+       /*header*/  
     body{
         font-family: 'Roboto', sans-serif;
         background-color: #060018;
@@ -8,18 +8,16 @@
     }
 
     header{
+        width: 100%;
         display:flex;
         background-color: none;
         justify-content: space-between;
         align-items: center;
-        
         padding-bottom: 10px;
-              position: fixed;
+        position: fixed;
         top:0;
-        width: 100%;
     }   
-          
-    
+            
     a{
         color: white;
         text-decoration: none;
@@ -31,60 +29,73 @@
     }
        
     .navbutton{
-        display: inline-flexbox;
+       display: inline-flexbox;
        background-color: #0600188e;
        border:  #e00036 solid 1px;
        width: 200px;
-        padding: 15px 15px;
-        font-family: 'Roboto', serif;
-        font-size: 2rem;
-        text-align: center;
-        text-decoration: none;
-        border-radius: 10px;
-        margin-right: 30px;
-        box-shadow: -10px 3px 10px 5px  #0600188e ;
+       padding: 15px 15px;
+       font-family: 'Roboto', serif;
+       font-size: 2rem;
+       text-align: center;
+       text-decoration: none;
+       border-radius: 10px;
+       margin-right: 30px;
+       box-shadow: -10px 3px 10px 5px  #0600188e;
     }
-   
-   
-    
+   /*hero*/
     #hero {
         
-        display: flex;
-        background-image: url(/images/hero.svg);
+       display: flex;
+       background-image: url(/images/hero.svg);
        background-repeat: no-repeat;
+       width: auto;
+       padding-bottom: 90px;
+       padding-top: 100px;
+       padding-left: 10%;
+       padding-right: 10%;
+       margin-top: 60px ;
+    }
+
+    #heronopic {
+        
+        display: flex;
+        background-color: none;
+        background-repeat: no-repeat;
         width: auto;
         padding-bottom: 90px;
-        padding-top: 60px;
+        padding-top: 100px;
         padding-left: 10%;
-        margin-top: 30px ;
-    }
+        padding-right: 10%;
+        margin-top: 60px ;
+        
+     }
 
     #hero h1{
         font-size:6rem;
         text-align: center;
-
-    }
-      #narrow {
-        width:90%;
-           
-      }
-      #wide {
-        flex: ;
     }
 
+    #heronopic h1{
+        font-size: 7rem;
+    }
+    
+    #narrow {
+       width:90%;
+    }    
+     
     .row {
-  display: flex;
-  justify-content: space-between;
+       display: flex;
+       justify-content: space-between;
 }
 
 .column {
   flex: 0%;
+  padding-top: 100px;
 }
 
-
+/*buttons*/
     .nextbutton{
         display: inline-block;
-        
         background-color:#0600188e ;
         border: solid 1px #e00036;
         width: 200px;
@@ -97,12 +108,11 @@
         margin-right: auto;
         margin-left: auto;
         margin-right: 50px;
-        margin-top: 40px;
+        margin-left: 50px;
+        margin-top: 60px;
         margin-bottom: 100px;
         box-shadow: -10px 3px 10px 5px  #0600188e ;
     }
-
-    
 
     .kycbutton{
             background-color:#0600188e;
@@ -116,44 +126,103 @@
             border-radius: 10px;
             margin-right: auto;
             margin-left: auto;
-           
+            margin-top: 50px;
             box-shadow: -10px 3px 10px 5px  #0600188e;
     }
 
-.kycbutton:hover{
-    background-color:  #e00036;
-    border: #060018  solid 1px;
-    transition-duration: .5s;
+    .kycbutton:hover{
+            background-color:  #e00036;
+            border: #060018  solid 1px;
+            transition-duration: .5s;
 }
+         
+            /*blue button*/
 
-    .education{
-         margin-bottom: 30px;
-         padding-bottom: 30px;
-    }
-    
-   
+            .donewrapper{
+                text-align:right;
+                padding-right: 50px;
+                padding-bottom: 50px;
+                margin-right: 50px;
+                margin-bottom: 50px;
+                margin-top: 50px;
+            }
 
-    .container {
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-   
-    
-
-
-    main2{
-        min-height: 300px;
-        display: flex;
-        align-items: center;
-    }
+            .bluebutton{
+                background-color: #3500d3;
                 
-    .herobox1 {
-         flex: 2;
-         text-align: center;
-         padding-top: 100px;
-    }
-          
+                width: 250px;
+                color: white;
+                font-family: 'Roboto';
+                font-size: 1rem;
+                padding: 10px 10px;
+                display: inline-block;
+                margin-top: 15px;
+                border-radius: 5px;
+                box-shadow: 5px 5px 5px #010003;
+                text-align: center;
+            }
+
+
+            .mybutton {
+                background-color:#e00036;
+                width: 350px;
+                color: white;
+                font-family: 'Roboto';
+                font-size: 3rem;
+                padding: 25px 35px;
+                display: inline-block;
+                margin-top: 60px;
+                border-radius: 5px;
+                box-shadow: 1px 15px 5px #010003
+            }
+            
+            input[type=button], input[type=submit] {
+                background-color:#e00036;
+                width: 250px;
+                font-family: 'Roboto';
+                font-size: 2rem;
+                padding: 11px 25px;
+                display: inline-block;
+                margin-top: 15px;
+                border-radius: 5px;
+                box-shadow: 1px 15px 5px #010003;
+                cursor: pointer;
+                display: block;
+                margin: 0 auto;
+                
+            }
+        /*
+            input[type=button], input[type=submit], input[type=reset]:hover{
+        
+                background-color: #060018;
+                border: #e00036  solid 1px;
+                transition-duration: .5s;
+        
+               */
+            
+        
+        
+            .mybutton:hover {
+                background-color: #060018;
+                border: #e00036  solid 1px;
+                transition-duration: .5s;
+            }
+            
+            .navbutton:hover{
+                background-color:  #e00036;
+                border: #060018  solid 1px;
+                transition-duration: .5s;
+            }
+        
+            .nextbutton:hover{
+                background-color:  #e00036;
+                border: #060018  solid 1px;
+                transition-duration: .5s;
+                
+            }
+
+
+/*Writing Fonts Copy*/
     h1{ 
         font-size: 3.25rem;
         font-family: 'Roboto';
@@ -164,6 +233,7 @@
         text-align: center;   
         margin-left: auto;
         margin-right: auto;  
+        padding-top: 10px;
                
     }
 
@@ -171,7 +241,7 @@
         font-size: 2rem;
         font-family: 'Roboto';
         font-weight: 900;
-        margin-bottom: 1rem;
+        margin-bottom:10px;
         color: white;
         text-align: center;
         padding-top: 50px;
@@ -180,9 +250,14 @@
         padding-right: 50px;
     }
 
-    .slide1 h2{
-       padding-top: 50px;
+    h3{
+        font-size: 2rem;
+        padding: 15px 20px;
+        font-family: 'Roboto';
+        text-align: center;
+        color: white;
     }
+   
 
     p{  
         font-family: 'Roboto';
@@ -194,61 +269,17 @@
         padding-left: 30px;
         padding-right: 30px;
     }
+  /*buttons*/  
     
-    .mybutton {
-        background-color:#e00036;
-        width: 250px;
-        color: white;
-        font-family: 'Roboto';
-        font-size: 3rem;
-        padding: 11px 25px;
-        display: inline-block;
-        margin-top: 15px;
-        border-radius: 5px;
-        box-shadow: 1px 15px 5px #010003
-    }
-    
-    .mybutton:hover {
-        background-color: #e00036;
-        border: #060018  solid 1px;
-        transition-duration: .5s;
-    }
-    
-    .navbutton:hover{
-        background-color:  #e00036;
-        border: #060018  solid 1px;
-        transition-duration: .5s;
-    }
-
-    .nextbutton:hover{
-        background-color:  #e00036;
-        border: #060018  solid 1px;
-        transition-duration: .5s;
-        
-    }
         
     .inputwrapper {
-           margin-bottom: 20px;
-           margin-top: 20px;
+           margin-bottom: 30px;
            padding-bottom: 25px;
            text-align: center;
            padding-top: 10px;
-          
-               
     }
 
-    .floated{
-        background-color:#e00036;
-        width: 250px;
-        color: white;
-        font-family: 'Roboto';
-        font-size: 3rem;
-        padding: 11px 25px;
-        display: inline-block;
-        margin-top: 15px;
-        border-radius: 5px;
-        box-shadow: 1px 15px 5px #010003
-    }
+    
     
     input[type=text], input [type="email"], textarea {
         padding: 12px 20px;
@@ -262,23 +293,20 @@
     .newline{
         text-align: center;
         display: block;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
         font-size: 1.25rem;
         color: white;
         font-weight: 900;
         font-family: 'Roboto';
-    }
-
-
-   
+        padding-top: 15px;
     }
 
     .slide1{
 
-        width: auto%;
+        width: auto;
         background-color: #3500d3;
         padding-bottom: 50px;
-        box-shadow: 100px 15px 50px 50px   #ec0505);
+        box-shadow: 100px 15px 50px 50px   #ec0505;
         padding-inline-start: 50px;
         text-align: center;
         margin-top: 50px;
@@ -307,11 +335,74 @@
         margin-right: 60px;
         
     }
-   
-Page 2 specific 
-    img
 
 
+/* Main Footer */
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+footer .main-footer{	padding: 20px 0;	background:#060018;}
+footer ul{	padding-left: 0;	list-style: none;}
+
+/* Footer transparent */
+footer.transparent .footer-top, footer.transparent .main-footer{	background: transparent;}
+footer.transparent .footer-copyright{	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3) ;}
+
+/* Footer light */
+footer.light .footer-top{	background: #f9f9f9;}
+footer.light .main-footer{	background: #f9f9f9;}
+footer.light .footer-copyright{	background: none repeat scroll #060018 ;}
+
+/* Footer 4 */
+.footer- .logo {    display: inline-block;}
+
+/*==================== 
+	Widgets 
+====================== */
+.widget{	padding: 20px;	margin-bottom: 40px;}
+.widget.widget-last{	margin-bottom: 0px;}
+.widget.no-box{	padding: 0;	background-color: transparent;	margin-bottom: 40px;
+	box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none;}
+.widget.subscribe p{	margin-bottom: 18px;}
+.widget li a{	color: #e00036}
+.widget li a:hover{	color: #3500d3;}
+.widget-title {margin-bottom: 20px;}
+.widget-title span {background: #839FAD none repeat scroll 0 0;display: block; height: 1px;margin-top: 25px;position: relative;width: 20%;}
+.widget-title span::after {background: inherit;content: "";height: inherit;    position: absolute;top: -4px;width: 50%;}
+.widget-title.text-center span,.widget-title.text-center span::after {margin-left: auto;margin-right:auto;left: 0;right: 0;}
+.widget .badge{	float: right;	background: #7f7f7f;}
+
+.typo-light h1, 
+.typo-light h2, 
+.typo-light h3, 
+.typo-light h4, 
+.typo-light h5, 
+.typo-light h6,
+.typo-light p,
+.typo-light div,
+.typo-light span,
+.typo-light small{	color: #fff;}
+ul.social-footer2 {	margin: 0;padding: 0;	width: auto;}
+ul.social-footer2 li {display: inline-block;padding: 0;}
+ul.social-footer2 li a:hover {background-color:#ff8d1e;}
+ul.social-footer2 li a {display: block;	height:30px;width: 30px;text-align: center;}
+.btn{background-color: ; color:#fff;}
+.btn:hover, .btn:focus, .btn.active {background: #4b92dc;color: #fff;
+-webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+-moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+-ms-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+-o-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+-webkit-transition: all 250ms ease-in-out 0s;
+-moz-transition: all 250ms ease-in-out 0s;
+-ms-transition: all 250ms ease-in-out 0s;
+-o-transition: all 250ms ease-in-out 0s;
+transition: all 250ms ease-in-out 0s;
+
+}
+/*Page 2 Tiles*/
     i{
         font-size: 200px;
                 padding-top: 50px;
@@ -344,6 +435,8 @@ Page 2 specific
         background-color: #282828;
         border-color:#282828;
         color: white;
+        margin-bottom: 1px;
+     
         
     }
 
@@ -403,37 +496,26 @@ Page 2 specific
  /*Page 3 Specific */
 
 
- #title{
-        
-    display: flex;
-    background-repeat: no-repeat;
-    width: 100%;
-    padding-bottom: 80px;
-    padding-top: 170px;
-    padding-left: 10%;
-    margin-top: 40px ;
-}
-
-#title h1{
-    font-size:7rem;
-}
-  #narrow {
-    width:80%;
-       
+    #narrow {
+    width:100%;
+           
   }
-  #wide {
-    flex: ;
+     #wide {
+      width: 70%;    
 }
 
-    .title{
-        font-size: 300px;
-        color: white;
-        font-family: 'Roboto';
-        font-weight: 900;
-        padding-top: 80px;
-        margin-bottom: 50px;
-        text-align: center;
-    }
+    #wide h2{
+    padding-top:80px;
+}
+
+     #narrow h2{
+    padding-top:30px;
+    padding-bottom: 10px;
+}
+
+
+/*Blue decorative boxes*/
+    
     .slide2{
         background-color:#3500d3;
         display:block;
@@ -487,145 +569,11 @@ Page 2 specific
        margin-top: 30px;
     }
 
-    
-
-    .letsgo {
-        background-color:#fc8c14;
-        width: 350px;
-        text-align: center;
-        color: white;
-        font-family: 'Roboto';
-        font-size: 3rem;
-        padding: 11px 25px;
-        display: inline-block;
-        margin-top: 15px;
-        border-radius: 5px;
-        box-shadow: 1px 15px 5px rgba(0, 146, 214, 0.685) ; 
-    }
-       .donewrappers{
-           column-count: red;
-    text-align:right;
-    padding-right: 50px;
-    padding-bottom: 50px;
-    margin-right: 50px;
-    margin-bottom: 50px;
-    margin-top: 50px; 
-       }
-
-    .optout{
-        background-color:none;
-        border: 1px white solid;
-        width: 250px;
-        color: white;
-        font-family: 'Roboto';
-        font-size: 1rem;
-        padding: 10px 10px;
-        display: inline;
-        margin-top: 15px;
-        border-radius: 5px;
-        box-shadow: 5px 5px 5px #04000f);
-        text-align: center;
-     }
-
-
-     /*modal*/
-
-/* The Modal (background) */
-
-  
-:root {
-    --modal-duration: 1s;
-    --modal-color: #428bca;
-  }
-  
- 
-  
-  .button {
-    background: #428bca;
-    padding: 1em 2em;
-    color: #fff;
-    border: 0;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .button:hover {
-    background: #3876ac;
-  }
-  
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  
-  .modal-content {
-    margin: 10% auto;
-    width: 60%;
-    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
-    animation-name: modalopen;
-    animation-duration: var(--modal-duration);
-  }
-  
-  .modal-header h2,
-  .modal-footer h3 {
-    margin: 0;
-  }
-  
-  .modal-header {
-    background: var(--modal-color);
-    padding: 15px;
-    color: #fff;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-  }
-  
-  .modal-body {
-    padding: 10px 20pxs;
-    background: #fff;
-  }
-  
-  .modal-footer {
-    background: var(--modal-color);
-    padding: 10px;
-    color: #fff;
-    text-align: center;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-  }
-  
-  .close {
-    color: #ccc;
-    float: right;
-    font-size: 30px;
-    color: #fff;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-  @keyframes modalopen {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
+     
 
 
 
-     /*Page 4*/
+     /* Different variations of red boxes and functions inside of them*/
 
      .sign{     
          border: #e00036 1px solid;
@@ -633,9 +581,12 @@ Page 2 specific
          width: 80%;
          height: 600px;
          margin-right: 50px;
-         
+         padding-top: 0px;
          
      }
+
+
+     
 
      .sign2{
         
@@ -644,54 +595,79 @@ Page 2 specific
           width: 80%;
          height: 600px;
         justify-content: center;
-      
-         
+             margin-left: 50px;
+            
+             
+              
      }
 
-    .sign h1{
+     .sign3{
+        border: 1px #e00036 solid;
+        display: block;
+        width: 80%;
+        height: 600px;
+        justify-content: center;
+        height: 300px
+     }
+
+     .sign h1{
         padding-bottom: 10px;
+        padding-top: 60px;
     }
-    .sign h2{
+     .sign h2{
         padding-top:20px;
         margin-bottom: 0px;
     }
 
-    .sign .inputwrapper{
+     .sign .inputwrapper{
         padding-top: 10px;
     
     }
 
-    .signup{
-        display: inline;
+
+    .agency{
+        width: 50%;
+        height: 250;
+        border: 1px #e00036 solid;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+      margin-bottom: 42px;
+      
     }
 
-    .signup .mybutton{
-        font-size: 1rem;
-        text-align: center;
-        align-items: center;
-    }
+.agencymini{
+    width: 50%;
+       
+        border: 1px #e00036 solid;
+        margin-left: auto;
+        margin-right: auto;
+        
+      }
 
-    .signup h2 {
-        text-align: center;
-        padding-bottom: 10px;
-    }
+.agency h1{
+    padding-bottom: 10px;
+}
 
-    .signup .inputwrapper{
-        margin-bottom: 20px;
-        margin-top: 20px;
-        padding-bottom: 5px;
-        text-align: center;
-    }
+/*redboxes-end*/
 
     input[type=text], input [type="email"], textarea{
-        padding: 12px 20px;
+        padding: 12px 25px;
         width: 33%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        box-sizing: border-box;
+        text-align: left;
+    }
+
+    input[type=text], input [type="text"], textarea{
+        padding: 13px 10px;
+        width: 80%;
         font-family: 'Roboto', sans-serif;
         font-size: .85rem;
         box-sizing: border-box;
         text-align: left;
     }
-
   
 
     .sand{ 
@@ -720,42 +696,29 @@ select{
     
 }
 
-    .agency{
-        width: 50%;
-        height: 200px;
-        border: 1px #e00036 solid;
-        margin-left: auto;
-        margin-right: auto;
-      margin-bottom: 40px;
-      
-    }
-
-.agencymini{
-    width: 50%;
-        height: 400px;
-        border: 1px #e00036 solid;
-        margin-left: auto;
-        margin-right: auto;
-        
-      }
-
-
+    
+   .signup h2{
+       padding-top: 40px;
+   }
 
    
+/*Page 5*/
+
+  
+   
+
+    h4{
+        padding-top: 20px;
+    }
 
     .radio{
         color: white;
         font-size: 2rem;
         padding-bottom: 20px;
         text-align: center;
+        padding-top: 20px;
     }
    
-/*Page 5*/
-
-    textarea{
-    	box-sizing: border-box;
-        width: 66.5%;
-    }
 
 /*Page 6*/
 
@@ -785,45 +748,14 @@ select{
         color: white;
         background-color: #240090;
         margin:auto;
-        width:600px;
+        width:800px;
         padding: 20px 10px;
         border-radius: 10px;
         margin-top: 20px;
         margin-bottom: 50px;
     }
-       
-
-/*Page 8*/
-    .donewrapper{
-        text-align:right;
-        padding-right: 50px;
-        padding-bottom: 50px;
-        margin-right: 50px;
-        margin-bottom: 50px;
-        margin-top: 50px;
-    }
-
-    .done{
-        background-color: #3500d3;
-        
-        width: 250px;
-        color: white;
-        font-family: 'Roboto';
-        font-size: 1rem;
-        padding: 10px 10px;
-        display: inline-block;
-        margin-top: 15px;
-        border-radius: 5px;
-        box-shadow: 5px 5px 5px #010003;
-        text-align: center;
-    }
-
-    .slide2 p{
-        font-family: 'Roboto';
-        color: white;
-        font-size: 1.5rem;
-}
-/*Page 9*/
+    
+/*Page 9 and lessons boxes*/
 
 
     .lessons{
@@ -837,14 +769,13 @@ select{
     }
 
     .lesson1{
-        background-color: #010003;
+        background-color:none;
         border: #e00036 solid 1px;
         background-size: cover;
         background-position: bottom;
         min-height: 250px; 
         width: 30%;
-        box-shadow: 5px 5px 5px rgba(88, 44, 2, 0.712);
-        
+        box-shadow: 5px 5px 5px #060018;
     }
 
 
@@ -855,13 +786,13 @@ select{
     }
 
     .lesson2{
-        background-color: #010003;
+        background-color: none;
         border: #e00036 solid 1px;
         background-size: cover;
         background-position: bottom;
         min-height: 250px;
         width: 30%;
-        box-shadow: 5px 5px 5px rgba(88, 44, 2, 0.712) ;
+        box-shadow: 5px 5px 5px #060018;
     }
 
     .lesson2:hover {
@@ -871,13 +802,13 @@ select{
     }
 
     .lesson3{
-        background-color: #010003;
+        background-color: none;
         border: #e00036 solid 1px;
         background-size: cover;
         background-position: bottom;  
         min-height: 250px;
         width: 30%;
-        box-shadow: 5px 5px 5px rgba(88, 44, 2, 0.712) ;
+        box-shadow: 5px 5px 5px #060018; 
     }
 
     .lesson3:hover {
@@ -892,15 +823,8 @@ select{
         border-radius: 15px;
     }
 
-    h3{
-        font-size: 2rem;
-        padding: 15px 20px;
-        font-family: 'Roboto';
-        text-align: center;
-        color: white;
-    }
+   
 
-/*Page 10*/
 
     /* Tablet View <768px */
     @media (max-width: 768px){
@@ -912,3 +836,4 @@ select{
     @media (max-width:400px){
 
 }
+
