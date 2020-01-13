@@ -9,14 +9,16 @@ if($link === false){
 }
  
 // Escape user inputs for security
-$first_name = mysqli_real_escape_string($link, $_REQUEST['first_name']);
-$last_name = mysqli_real_escape_string($link, $_REQUEST['last_name']);
-$email = mysqli_real_escape_string($link, $_REQUEST['email']);
+$headline = mysqli_real_escape_string($link, $_REQUEST['headline']);
+$intro = mysqli_real_escape_string($link, $_REQUEST['intro']);
+$summary = mysqli_real_escape_string($link, $_REQUEST['summary']);
+$closer = mysqli_real_escape_string($link, $_REQUEST['closer']);
+
  
 // Attempt insert query execution
-$sql = "INSERT INTO signup (first_name, last_name, email) VALUES ('$first_name', '$last_name', '$email')";
+$sql = "INSERT INTO signup (headline, intro, summary, closer) VALUES ('$headline', '$intro', '$summary', '$closer')";
 if(mysqli_query($link, $sql)){
-    header('Location: 5-skills.html');
+    header('Location: 7-photo.html');
      exit();
 } else{
     echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
@@ -26,5 +28,7 @@ if(mysqli_query($link, $sql)){
 mysqli_close($link);
 ?>
 
-
- 
+headline
+intro
+summary
+close
