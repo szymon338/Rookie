@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylereset.css">
+    <link rel="stylesheet" href="v2style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <div class="navbutton"> <a href="/v2index.html">
+            <img src="images/SVG/Asset 3.svg" width="200" height="70" alt="Freelancer.com logo"></a>
+   
+        <div class="dropdown">
+        
+            <div class="navbutton"><a href="https://www.freelancer.com"><h4>POST PROJECT</h4></a></div>
+            <div class="navbutton"><a href="https://www.freelancer.com"><h4>SIGN IN</h4></a></div>
+            <div class="navbutton"><a href="https://www.freelancer.com"><h4>SUPPORT</h4></a></div>
+        </div>
+        
+      </header>
+
+      <body>
+        <div class="signupwrapper">
+            <div id="herosignup">
+                
+               
+                    <div class="inputwrapper">
+               
+                    <h1>Set up your profile</h1>
+                    <div class="photoupload">
+                        <div class="circle"></div>
+                        <div class="uploadwrapper">
+                        Select image to upload:
+                        <input type="file" class="uploadtext">
+                  
+                    
+             
+        
+               
+            
+                        </div>
+                        
+                        <form action="v2insertbio.php" method="post">
+                        
+                       
+                        
+                            <p> <label for="email" class="newline"></label>
+                                <label for="skills"></label>
+                                <input type="text" name="skills" id="skills" placeholder="What are your skills? (this would populate skills like PJP)">
+                            </p>
+                            <p> <label for="email" class="newline"></label>
+                                <label for="headline"></label>
+                                <input type="text" name="headline" id="headline" placeholder="Headline. In 20 words or less, tell us what you do">
+                            </p>
+                            <p>  <label for="email" class="newline"></label>
+                                <textarea name="summary" id="summary" cols="100" rows="5"
+                                 placeholder="Write a bio. Tell the world what makes you tick. (Minimum 500 characters)"></textarea>
+                                </div></div></div></div>
+                                 <div class="wide"></div>
+                                     <div class="signupwrapper">
+                                <h1>Portfolio Items</h1>
+                                
+                                    <div class="portfoliocontainer">
+   
+                                        <div class="col"><input type="file" class="uploadtext"><img src="/images/add-24px.svg" width="50px"  alt="#">
+                                            
+                                        </div>
+                                        <div class="col"><input type="file" class="uploadtext"><img src="/images/add-24px.svg" width="50px">
+                                             </div>
+                                        <div class="col"><input type="file" class="uploadtext"><img src="/images/add-24px.svg" width="50px" alt="#">
+                                           
+                                        </div>
+                                        <div class="col"><input type="file" class="uploadtext"><img src="/images/add-24px.svg" width="50px" alt="#">
+                                          
+                                        </div>
+                                        <div class="col hidemob"><input type="file" class="uploadtext"><img src="/images/add-24px.svg" width="50px" alt="#">
+                                           
+                                        </div>
+                                        <div class="col hidemob"><input type="file" class="uploadtext"><img src="/images/add-24px.svg" width="50px" alt="#">
+                                        </div>    
+                                        </div>
+                                 
+                                       
+            
+     
+          <div class="container">
+              <div class="portfoliocontainer">
+
+        <h1>Experience and Education</h1>
+        <div class="inputwrapper">
+            <label for="email" class="newline">Experience</label>
+            <input type="text" name="company" id="Company" placeholder="Company">
+            <input type="text" name="datework" id="Date" placeholder="Date">
+        
+        <div class="inputwrapper">
+            <textarea name="tasks" id="message" cols="500" rows="4"
+                placeholder="What were you responible for?"></textarea>
+        </div>
+
+        <div class="inputwrapper">
+            <label for="email" class="newline">Education</label>
+            <input type="text" name="institution" id="institution" placeholder="Institution">
+            <input type="text" name="dateedu" id="Date1" placeholder="Date">
+            <label for="email" class="newline"></label>
+            <input type="text" name="studies" id="Area of Studies" placeholder="Area of Studies">
+            <input type="text" name="qual" id="Qualification" placeholder="Qualification">
+        </div>
+    
+            <input type="submit" value="LETS GET TO WORK">
+        </form>

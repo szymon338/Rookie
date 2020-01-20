@@ -1,0 +1,573 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #edf2f5;
+    padding-top: 30px;
+    margin-top: 70px
+}
+
+
+    .signupwrapper{
+        width: 50%;
+        margin-top: 4%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: none;
+        background-color: white;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    /*fonts*/
+
+    h1{ 
+        font-size: 4.25rem;
+        font-family: 'Roboto';
+        font-weight: 900;
+        color: rgb(32, 32, 32);
+        text-align: center;   
+        margin-left: auto;
+        margin-right: auto;  
+            }
+
+    
+
+   
+    /*tiles*/
+        .container{
+            background-color: #edf2f5 ;
+            min-height: 400px;
+            max-width: 1024 px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding-top: 140px;
+        }
+
+        
+            .col{
+                width: 27%;
+                margin-bottom: 40px;
+                background: none;
+                margin-right: auto;
+                margin-left: auto;
+                text-align: center;
+            }
+
+            col:hover{
+                    
+                background-color: #060018;
+                border: #e00036  solid 1px;
+                transition-duration: .5s;
+           
+            }
+    
+                
+               .col img {
+                width: 90%;
+                height: auto;
+                text-align: center;
+                margin: 0;
+                transform: translateY(5%);
+                justify-self: auto;   
+            
+               }
+               .col p{
+                font-size: 0.875rem;
+                padding: 10px 10px;
+                line-height: 1.25rem;
+            
+               }
+
+
+/*portfolio items*/
+.portfoliocontainer{
+    background-color: white;
+    min-height: 400px;
+    max-width: 1024 px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin-bottom: 40px;
+}
+.portfoliocontainer .col{
+    margin-top: 50px;
+}
+
+    .col{
+        width: 27%;
+        margin-bottom: 40px;
+        background: none;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+
+    
+       .col img {
+        width: 90%;
+        height: auto;
+        text-align: center;
+        margin: 0;
+        transform: translateY(5%);
+        justify-self: auto;   
+    
+       }
+       .col p{
+        font-size: 0.875rem;
+        padding: 10px 10px;
+        line-height: 1.25rem;
+    
+       }               
+
+/*form*/
+
+.circle{
+    width: 500px;
+    height: 500px;
+    background: whitesmoke;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 50px; 
+    margin-bottom: 30px;
+    margin-top: 100px;}
+
+.
+/****/
+/* Global View */
+      
+       body{
+        font-family: 'Roboto', sans-serif;
+        background-color: #060018;
+        padding-top: 30px;
+        margin-top: 30px
+    }
+
+    header{
+        width: 100%;
+        display:flex;
+        background-color:none;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 10px;
+        position: absolute;
+        top:0;
+    }   
+            
+  
+    .navbutton {
+        background-color: none;
+        padding: 11px 45px;
+        width: 150px;
+        text-align: center;
+        display: inline-block;
+        position: relative;
+    }
+    
+    .dropdown{ 
+        display: none;
+        position: absolute;
+        z-index: 1;
+        padding-top: 5px;
+        text-align: center;
+        margin-top: 1px;
+        animation-delay:500ms;
+        justify-content: left;
+       }
+    
+    .navbutton:hover .dropdown{
+        display: block;  
+    }
+    
+    .navbutton .dropdown  {
+    width: 192px;
+    background-color: none;
+    margin-left: -26px;
+    }
+    
+   
+    
+    .dropdown .navbutton:hover{
+        background-color: none;
+        transition-duration: 500ms;
+    }
+
+
+
+
+   
+   /*hero*/
+    #hero {
+        
+       display: flex;
+       height: 600px;
+       background-image: url(/images/editiphone.jpg);
+       background-color: #edf2f5;
+       background-repeat: no-repeat;
+      
+
+       
+       width:80%;
+       padding-bottom: 90px;
+       padding-top: 10px;
+       padding-left: 10%;
+       padding-right: 5px;
+       margin-top: 40px ;
+    }
+
+    .heronopic {
+        
+        display: flex;
+        height: 700px;
+        background-color: #edf2f5;
+        position: relative;
+        background-repeat: no-repeat;
+        width: auto;
+        padding-bottom: 90px;
+        padding-top: 100px;
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-top: 60px ;
+     }
+
+
+
+
+    .herosignup {
+        
+        display: flex;
+       height: 800px;
+       width: 300px;
+       background-color: none;
+       
+     
+       position: relative;
+       background-repeat: no-repeat;
+       width: auto;
+       padding-bottom: 90px;
+       padding-top: 50px;
+       padding-left: 10%;
+       padding-right: 10%;
+       margin-top: 60px ;
+        
+     }
+
+    
+     
+
+
+    .row {
+       display: flex;
+       justify-content: space-between;
+}
+
+.column {
+  flex: 0%;
+  padding-top: 100px;
+}
+
+/*buttons*/
+  
+
+            .mybutton {
+                background-color:#e00036;
+                width: 350px;
+                color: white;
+                font-family: 'Roboto';
+                font-size: 4rem;
+                font-weight: 900;
+                padding: 25px 5px;
+                display: inline-block;
+                margin-top: 100px;
+                border-radius: 15px;
+                box-shadow: -3px 3px #970024, -2px 2px#ca0231, -1px 1px #ca0231;
+                border: 1px solid #ca0231;
+            
+            }
+            
+            input[type=button], input[type=submit] {
+                background-color:#e00036;
+                width: 70%;
+                font-family: 'Roboto';
+                font-size: 1rem;
+                font-weight: 900;
+                padding: 11px 15px;
+                display: inline-block;
+                margin-top: 25px;
+                border-radius: 15px;
+                border: thin;
+                cursor: pointer;
+                display: block;
+                margin: 0 auto;
+                            }
+                    
+            input[type=button], input[type=submit]:hover{background-color:#d30031;
+                            }
+       
+        
+        
+            .mybutton:hover {
+                background-color: #ca002f;
+                border: #ca0231  solid 1px;
+                transition-duration: .5s;
+            }
+            
+    
+
+
+/*Writing Fonts Copy*/
+    h1{ 
+        font-size: 4rem;
+        font-family: 'Roboto';
+        font-weight: 900;
+        margin-bottom: 1rem;
+        color: rgb(53, 53, 53);
+        padding-top: 50px;
+        text-align: center;   
+        margin-left: auto;
+        margin-right: auto;  
+        padding-top: 20px;
+               
+    }
+
+    h2{
+        font-size: 2rem;
+        font-family: 'Roboto';
+        font-weight: 900;
+        margin-bottom:10px;
+        color: black;
+        text-align: center;
+        padding-top: 50px;
+        padding-left: 50px;
+        margin-bottom: 30px;
+        padding-right: 50px;
+    }
+
+    h3{
+        font-size: 2rem;
+        padding: 15px 20px;
+        font-family: 'Roboto';
+        text-align: center;
+        color: black;
+    }
+    h4{
+        font-size: 1.2rem;
+        color: black;
+        text-align: LEFT;
+        color: #ca002f;
+        font-family: ;
+        font-weight: 500;
+    }
+   
+
+    p{  
+        font-family: 'Roboto';
+        color: black;
+        font-size: 1.5rem;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+  /*buttons*/  
+    
+        
+    .inputwrapper {
+           margin-bottom: 10px;
+           padding-bottom: 5px;
+           text-align: center;
+           padding-top: 10px;
+    }
+
+    
+    
+    input[type="text"], input [type="email"], textarea {
+        padding: 12px 20px;
+        width: 33%;
+        font-family: 'Roboto', sans-serif;
+        font-size: .85rem;
+        box-sizing: border-box;
+        text-align: center;
+        margin-top: 5px;
+        border: thin;
+        color: black;
+    }
+    
+    input[type=password]{
+        padding: 12px 20px;
+        width: 33%;
+        font-family: 'Roboto', sans-serif;
+        font-size: .85rem;
+        box-sizing: border-box;
+        text-align: center;
+        margin-top: 5px;
+        border: thin;
+        color: black;
+    }
+
+    
+    .newline{
+        text-align: center;
+        display: block;
+        margin-bottom: 5px;
+        font-size: 1.25rem;
+        color: black;
+        font-weight: 900;
+        font-family: 'Roboto';
+        padding-top: 5px;
+    }
+
+    
+
+
+    input{
+        background-color: whitesmoke;
+        border-color:#282828;
+        color: white;
+        
+    }
+        
+    textarea{
+        background-color: whitesmoke;
+        border-color:#282828 1px solid;
+        color: white;
+        
+     
+        
+    }
+
+    .card1{
+        background-color:none;
+        background-repeat: no-repeat;
+        border:  #e00036 solid 1px;
+        min-height: 400px;
+        min-width: 430px;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 1px 25px 15px #04000f;
+        padding-top: 5%;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+}
+
+    
+
+ /*Page 3 Specific */
+
+
+    #narrow {
+    width:50%;
+    background-color: none;
+    padding-top: 40px;
+           
+  }
+     #wide {
+      width: 90%; 
+      background-color:none;   
+ 
+}
+
+    #wide h2{
+    padding-top:80px;
+}
+
+     #narrow h2{
+    padding-top:30px;
+    padding-bottom: 10px;
+}
+
+  
+
+input[type=file]{
+    background-color: ;
+}
+
+
+
+    input[type=text], input [type="text"], textarea{
+        padding: 13px 10px;
+        width: 80%;
+        font-family: 'Roboto', sans-serif;
+        font-size: .85rem;
+        box-sizing: border-box;
+        text-align: left;
+    }
+  
+
+    .
+select{
+    width: 200px;
+    height: 50px;
+    border-width: 3px;
+    border-color: rgba(50, 50, 50, 0.14);
+    margin: 10px 10px 10px 0px;
+    background-color: #282828;
+    color: white;
+    text-align: center;
+   
+    
+}
+
+    
+   .signup h2{
+       padding-top: 20px;
+   }
+
+   
+/*Page 5*/
+
+  
+   
+
+    h4{
+        padding-top: 20px;
+    }
+
+
+    .circle{
+        width: 300px;
+        height: 300px;
+        background: whitesmoke;
+        background-image:url(images/face-24px.svg);
+        background-size: contain;
+        border-radius: 50%;
+        margin: auto;
+        margin-top: 50px; 
+        margin-bottom: 50px;
+        margin-top: 100px;
+    }
+    
+    .uploadwrapper{
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 1.25rem;
+        color: black;
+       background-color: white;
+        margin:auto;
+        width:400px;
+        padding: 20px 10px;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        text-align: center;
+        border: grey 1px solid;
+    }
+    
+/*Page 9 and lessons boxes*/
+
+
+    /* Tablet View <768px */
+    @media (max-width: 768px){
+   
+   
+}
+
+    /* Mobile View <400px */
+    @media (max-width:400px){
+
+}
+

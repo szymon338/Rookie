@@ -9,6 +9,7 @@ if($link === false){
 }
  
 // Escape user inputs for security
+$skills = mysqli_real_escape_string($link, $_REQUEST['skills']);
 $headline = mysqli_real_escape_string($link, $_REQUEST['headline']);
 $intro = mysqli_real_escape_string($link, $_REQUEST['intro']);
 $summary = mysqli_real_escape_string($link, $_REQUEST['summary']);

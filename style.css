@@ -445,7 +445,7 @@ transition: all 250ms ease-in-out 0s;
         background-repeat: no-repeat;
         border:  #e00036 solid 1px;
         min-height: 400px;
-        min-width: 400px;
+        min-width: 430px;
         text-align: center;
         border-radius: 10px;
         box-shadow: 1px 25px 15px #04000f;
@@ -467,6 +467,8 @@ transition: all 250ms ease-in-out 0s;
         padding-top: 50px;
         padding-left: 20px;
         padding-right: 20px;
+        margin-left: 10%;
+        margin-right:
     }
 
     .card3{

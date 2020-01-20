@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylereset.css">
+    <link rel="stylesheet" href="v2style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <div class="logo"> <a href="/index.html">
+            <img src="images/SVG/Asset 3.svg" width="300" height="100" alt="Freelancer.com logo"></a>
+        </div>
+        <nav>
+          <div class="navbutton">
+            <a href="https://www.freelancer.com">Post Project</a>
+          </div>
+        </nav>
+      </header>
+
+      <body>
+          
+     
+       
+        <div class="slide2">
+            
+                <h1>Photo</h1>
+                <div class="photoupload">
+                    <div class="circle"></div>
+                    <div class="uploadwrapper">
+                    Select image to upload:
+                    <input type="file" class="uploadtext">
+              
+                </div>
+                <h1>Basics</h1>
+                <form action="insert.php" method="post">
+                    <p> <label for="email" class="newline">First Name</label>
+                        <label for="firstName"></label>
+                        <input type="text" name="first_name" id="firstName" placeholder="Joe">
+                    </p>
+                    <p> <label for="email" class="newline">Last Name</label>
+                        <label for="lastName"></label>
+                        <input type="text" name="last_name" id="lastName" placeholder="Smith">
+                    </p>
+                    <p> <label for="email" class="newline">Email</label>
+                        <label for="emailAddress"></label>
+                        <input type="text" name="email" id="emailAddress" placeholder="Joe@random.com">
+                    </p>
+                    <p> <label for="email" class="newline">Skills</label>
+                        <label for="emailAddress"></label>
+                        <input type="text" name="email" id="emailAddress" placeholder="Start Typing your skills">
+                    </p>
+            
+        <h1>Profile</h1>
+              <div class="inputwrapper">
+              <form action="insertbio.php" method="post">
+              <label for="email" class="newline">Headline</label>
+                      <textarea name="headline" id="message" cols="100" rows="2"
+                      placeholder="In less than 250 characters, tell us what you do"></textarea>
+                      </div>
+                     <div class="inputwrapper">
+              <label for="email" class="newline">What makes you tick?</label>
+                      <textarea name="intro" id="message1" cols="100" rows="5"
+                       placeholder="Explain your experience, and why you are the best freelancer to hire"></textarea>
+              
+             </div>
+
+            
+                    <form action="insertexp.php" method="post">
+                        <h1>Experience and Education</h1>
+                        <div class="inputwrapper">
+                            <label for="email" class="newline">Experience</label>
+                            <input type="text" name="company" id="Company" placeholder="Company">
+                            <input type="text" name="datework" id="Date" placeholder="Date">
+                        </div>
+                        <div class="inputwrapper">
+                            <textarea name="tasks" id="message" cols="500" rows="4"
+                                placeholder="What were you responible for?"></textarea>
+                        </div>
+        
+                        <div class="inputwrapper">
+                            <label for="email" class="newline">Education</label>
+                            <input type="text" name="institution" id="institution" placeholder="Institution">
+                            <input type="text" name="dateedu" id="Date1" placeholder="Date">
+                            <label for="email" class="newline"></label>
+                            <input type="text" name="studies" id="Area of Studies" placeholder="Area of Studies">
+                            <input type="text" name="qual" id="Qualification" placeholder="Qualification">
+                           
+                               
+            
+            
+            
+                            </select>
+                        </div>
+                </div>
+
+
+
+
+                
+    </div>
+<div class="inputwrapper">
+      <input type="submit" value="Next">
+      <a href="/5-skills.html" class="nextbutton" id="slide_start_button" value="Start">Back</a>
+  </form>
+</div>
+
+</body>

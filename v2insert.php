@@ -17,7 +17,7 @@ $password = mysqli_real_escape_string($link, $_REQUEST['password']);
 // Attempt insert query execution
 $sql = "INSERT INTO signup (first_name, last_name, email,password) VALUES ('$first_name', '$last_name', '$email', '$password')";
 if(mysqli_query($link, $sql)){
-    header('Location: v2profile.html');
+    header('Location: V2profile.html');
      exit();
 } else{
     echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
